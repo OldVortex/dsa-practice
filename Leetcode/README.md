@@ -1,12 +1,16 @@
 # FORMAT
 
 /*
+
 Problem: Name
-LeetCode #<Number>
+
+LeetCode #(number)
+
 
 Approach:
 
 Explain in short
+
 
 Time Complexity: .....
 
