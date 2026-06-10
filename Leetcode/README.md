@@ -8,11 +8,10 @@ LeetCode #(number)
 
 
 Approach:
-
 Explain in short
 
 
-Time Complexity: .....
-
+Time Complexity: ..... 
 Space Complexity: .....
+
 */
