@@ -3,23 +3,15 @@ Problem: Merge Two Sorted Lists
 LeetCode #21
 
 Approach:
-Use two pointers to traverse both sorted linked lists and merge
-them by reusing the existing nodes. Initialize the head of the
-merged list with the smaller first node, then repeatedly append
-the smaller node from either list to the merged list. Once one
-list is exhausted, attach the remaining nodes of the other list.
+Use two pointers to traverse both sorted linked lists and merge them by reusing the existing nodes.
+Initialize the head of the merged list with the smaller first node,
+then repeatedly append the smaller node from either list to the merged list.
+Once one list is exhausted, attach the remaining nodes of the other list.
 
 Time Complexity: O(n + m)
 Space Complexity: O(1)
 */
 
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     if (list1 == NULL) {
         return list2;
